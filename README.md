@@ -56,24 +56,32 @@ cats-vs-dogs-classifier/
 
 ---
 
+
+---
+
 ## 📤 How to Run
 
-### Option 1: Run in Google Colab (Recommended)
-1. Open `cats_dogs_classifier.ipynb` in **Google Colab**.  
+### **Option 1: Run in Google Colab (Recommended)**
+
+1. Open `fcc_cat_dog.ipynb` in **Google Colab**.  
 2. Run each cell sequentially.  
 3. After training, the model will display test images with predicted labels.  
 4. To submit on freeCodeCamp:
-   - Click **File → Save a copy in Drive**
+   - Click **File → Save a copy in Drive**  
    - Share the notebook with **anyone with the link**.
 
 ---
 
-### Option 2: Run Locally on Your Machine
-1. **Download the notebook:**
-   - Click **File → Download → Download .ipynb** in Colab.
+### **Option 2: Run Locally**
+
+1. **Download the notebook**:  
+   - `fcc_cat_dog.ipynb` from your repo or Colab.  
 
 2. **Install required libraries** (Python 3.x):
 ```bash
+
+pip install tensorflow matplotlib numpy
+
 pip install tensorflow matplotlib numpy
 he notebook with **anyone with the link**.
 
